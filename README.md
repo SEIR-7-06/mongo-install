@@ -2,8 +2,7 @@
 
 MonogDB is a database that stores information as easy to read "documents". We'll use it to store data in our Node.js and Express stack.
 
-The installation instructions can be found here for all operating systems. However, we'll go through the steps for Mac users together.
-[Install Instructions](https://docs.mongodb.com/manual/administration/install-community/)
+The installation instructions can be found [here](https://docs.mongodb.com/manual/administration/install-community/) for all operating systems. However, we'll go through the steps for Mac users together.
 
 
 ### Install MongoDB on Mac
