@@ -1,4 +1,4 @@
-## MongoDB
+# MongoDB
 
 MonogDB is a database that stores information as easy to read "documents". We'll use it to store data in our Node.js and Express stack.
 
@@ -45,8 +45,7 @@ You should now see `/opt/homebrew` and are good to continue.
 
 </details>
 
-
-### Install MongoDB on Mac
+## Install MongoDB on Mac
 
 1. First check if Mongo DB is already installed on your machine by running this command.
 ```bash
@@ -99,3 +98,5 @@ which mongo
 ```
 
 If this has worked correctly, you should see a file path as output.
+
+You are all set and ready to Mongo!
