@@ -88,6 +88,12 @@ You should now see `/opt/homebrew` and are good to continue.
 
 </details>
 
+<br/>
+
+---
+
+<br/>
+
 ## Install MongoDB on Mac
 
 ---
