@@ -8,7 +8,6 @@ The installation instructions can be found [here](https://docs.mongodb.com/manua
 
 ---
 
-<br/>
 
 1. First check if Mongo DB is already installed on your machine by running this command.
 ```bash
@@ -27,7 +26,6 @@ If you get an output that says `mongo not found`, that means **you should instal
 
 ---
 
-<br/>
 
 ## For Mac M1 Chip Users
 
@@ -44,7 +42,6 @@ You may see `/usr/local`. We'll update this so that homebrew installs packages i
 
 ---
 
-<br/>
 
 2. The following steps will create the proper directory, set up the permissions, and download Homebrew.
 ```bash
@@ -58,7 +55,6 @@ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C ho
 
 ---
 
-<br/>
 
 3. Add the Homebrew bin to your PATH variable.
 ```bash
@@ -70,7 +66,6 @@ echo export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH" >> ~/.zshrc
 
 ---
 
-<br/>
 
 4. Quit out of your terminal completely with `cmd + q` and then open it up again.
 
@@ -78,7 +73,6 @@ echo export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH" >> ~/.zshrc
 
 ---
 
-<br/>
 
 5. Check if the Homebrew install location has been updated.
 ```bash
@@ -92,11 +86,8 @@ You should now see `/opt/homebrew` and are good to continue.
 
 ---
 
-<br/>
 
 ## Install MongoDB on Mac
-
----
 
 <br/>
 
@@ -109,7 +100,6 @@ brew tap mongodb/brew
 
 ---
 
-<br/>
 
 2. Install Mongo DB Community
 ```bash
@@ -120,7 +110,6 @@ brew install mongodb-community@5.0
 
 ---
 
-<br/>
 
 3. Start the Mongo service running in the background
 
@@ -132,7 +121,6 @@ brew services start mongodb-community@5.0
 
 ---
 
-<br/>
 
 4. After the installation, run the `which` command to verify the install was successful.
 
