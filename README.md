@@ -60,6 +60,8 @@ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C ho
 ```bash
 echo export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH" >> ~/.zprofile
 echo export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH" >> ~/.zshrc
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 <br/>
